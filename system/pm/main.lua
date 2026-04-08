@@ -1,0 +1,1 @@
+load(_read("/system/api/load.lua"))()
