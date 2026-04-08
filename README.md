@@ -33,7 +33,9 @@ All information here is prone to change, some more than others.
 There are some markings in here to add extra information.
 
 `<!>` Not yet implemented
+
 `<->` Somewhat implemented
+
 `<?>` Not final, prone to change
 
 ## Hardware Specs
@@ -53,6 +55,7 @@ The Sparrow Workstation has 16MB of addressable memory with `peek` and `poke`.
 
 ### 0x000000 - 0x01FA40
 480x270 Display
+
 Each pixel = 1 byte (0-255)
 
 ### 0x01FB00 - 0x01FB80
@@ -82,11 +85,15 @@ f RESERVED
 
 ### 0x120011 - 0x1400B0
 Font data
+
 256 characters; 32 bytes/character
 
 0x120011 - width of top 128 chars [characters] (max 16)
+
 0x120012 - height of chars (max 16)
+
 0x120013 - width of bottom 128 chars [symbols] (max 16)
+
 0x120014 - tab width (px) `<!>`
 
 0x120020 - 0x1200A0 - 256 nibbles (4 bits) of data; each being adjustment of character width by +-8px, nibble is signed with bit 1
