@@ -6,9 +6,15 @@ Sparrow Workstation OS is a fantasy workstation, developed by @astralsparv.
 
 This was developed in C and Lua.
 
-This is *not* released in any setting as of writing this, a date for any release is unknown.
+## Contact
+
+You can contact me and anyone else involved in this through the [discord server](https://discord.gg/TuwPjjCuwK).
+
+There is development discussions that will be held here that you may contribute to.
 
 ## Releases
+
+This is *not* released in any setting as of writing this, a date for any release is unknown.
 
 Releases will start in small close releases to private groups for testing, before leading to a public release.
 
@@ -46,7 +52,7 @@ The Sparrow Workstation can have infinite processes, each process has:
 The Sparrow Workstation has 16MB of addressable memory with `peek` and `poke`.
 
 ### 0x000000 - 0x01FA40
-Display
+480x270 Display
 Each pixel = 1 byte (0-255)
 
 ### 0x01FB00 - 0x01FB80
